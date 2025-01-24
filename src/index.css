@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+    .btn {
+        /* podemos dar estilos, pero utilizando clases utilitarias */
+        @apply px-4 py-2 rounded-md
+    }
+
+    .btn-black {
+        @apply text-white bg-black hover:bg-slate-800;
+    }
+}
+
+/* leaflet trae su propio contenedor hay que indicarle que ocupe todo el ancho y alto posible */
+.leaflet-container {
+    height:100%;
+    width:100%;
+}
