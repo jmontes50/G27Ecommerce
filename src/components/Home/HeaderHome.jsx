@@ -5,7 +5,7 @@ const HeaderHome = () => {
       <img src="headerpicture.avif" alt="headerphoto" />
       <div className="absolute flex flex-col gap-5 top-24 left-20">
         <span className="text-3xl">
-          Classic Exclusive|
+          Classic Exclusive
         </span>
         <h2 className="text-5xl font-bold">
           Women's Collection
